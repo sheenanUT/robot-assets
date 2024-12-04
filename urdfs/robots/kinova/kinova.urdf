@@ -45,7 +45,7 @@
     <link name="jaco_front_hatch_support_v2">
         <visual>
             <geometry>
-                <mesh filename="meshes/jaco_front_hatch_support_v2.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/jaco_front_hatch_support_v2.dae"/>
             </geometry>
         </visual>
     </link>
@@ -58,7 +58,7 @@
     <link name="jaco_mounting_block">
         <visual>
             <geometry>
-                <mesh filename="meshes/jaco_mounting_block.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/jaco_mounting_block.dae"/>
             </geometry>
         </visual>
     </link>
@@ -71,7 +71,7 @@
     <link name="j2s6s200_link_base">
         <visual>
             <geometry>
-                <mesh filename="meshes/base.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/base.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -79,7 +79,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/base.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/base.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -99,7 +99,7 @@
     <link name="j2s6s200_link_1">
         <visual>
             <geometry>
-                <mesh filename="meshes/shoulder.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/shoulder.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -107,12 +107,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_big.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_big.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/shoulder.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/shoulder.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -142,7 +142,7 @@
     <link name="j2s6s200_link_2">
         <visual>
             <geometry>
-                <mesh filename="meshes/arm.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/arm.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -150,12 +150,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_big.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_big.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/arm.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/arm.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -185,7 +185,7 @@
     <link name="j2s6s200_link_3">
         <visual>
             <geometry>
-                <mesh filename="meshes/forearm.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/forearm.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -193,12 +193,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_big.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_big.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/forearm.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/forearm.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -228,7 +228,7 @@
     <link name="j2s6s200_link_4">
         <visual>
             <geometry>
-                <mesh filename="meshes/wrist_spherical_1.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/wrist_spherical_1.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -236,12 +236,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_small.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_small.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/wrist_spherical_1.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/wrist_spherical_1.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -271,7 +271,7 @@
     <link name="j2s6s200_link_5">
         <visual>
             <geometry>
-                <mesh filename="meshes/wrist_spherical_2.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/wrist_spherical_2.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -279,12 +279,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_small.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_small.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/wrist_spherical_2.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/wrist_spherical_2.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -314,7 +314,7 @@
     <link name="j2s6s200_link_6">
         <visual>
             <geometry>
-                <mesh filename="meshes/hand_2finger.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/hand_2finger.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.3 0.3 0.3 1"/>
@@ -322,12 +322,12 @@
         </visual>
         <visual>
             <geometry>
-                <mesh filename="meshes/ring_small.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/ring_small.dae"/>
             </geometry>
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/hand_2finger.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/hand_2finger.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -359,14 +359,14 @@
         <parent link="j2s6s200_link_6"/>
         <child link="j2s6s200_end_effector"/>
         <axis xyz="0 0 0"/>
-        <limit effort="2000" lower="0" upper="0" velocity="1"/>
+        <limit effort="2000" lower="0" upper="0" velocity="0.99"/>
         <!-- <origin rpy="3.14159265359 0 1.57079632679" xyz="0 0 -0.1600"/> -->
         <origin rpy="3.14159265359 1.57079632679 0" xyz="0 0 -0.1600"/>
     </joint>
     <link name="j2s6s200_link_finger_1">
         <visual>
             <geometry>
-                <mesh filename="meshes/finger_proximal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_proximal.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -374,7 +374,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/finger_proximal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_proximal.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -383,12 +383,12 @@
             <inertia ixx="7.8999684e-07" ixy="0" ixz="0" iyy="7.8999684e-07" iyz="0" izz="8e-08"/>
         </inertial>
     </link>
-    <joint name="j2s6s200_joint_finger_1" type="fixed">
+    <joint name="j2s6s200_joint_finger_1" type="revolute">
         <parent link="j2s6s200_link_6"/>
         <child link="j2s6s200_link_finger_1"/>
         <axis xyz="0 0 1"/>
         <origin rpy="-1.570796327 .649262481663582 1.57079632679490" xyz="-0.0025 0.03095 -0.11482"/>
-        <limit effort="2" lower="0" upper="1.51" velocity="1"/>
+        <limit effort="2" lower="0" upper="1.51" velocity="0.99"/>
     </joint>
     <transmission name="j2s6s200_joint_finger_1_trans">
         <type>transmission_interface/SimpleTransmission</type>
@@ -403,7 +403,7 @@
     <link name="j2s6s200_link_finger_tip_1">
         <visual>
             <geometry>
-                <mesh filename="meshes/finger_distal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_distal.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -411,7 +411,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/finger_distal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_distal.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -425,7 +425,7 @@
         <child link="j2s6s200_link_finger_tip_1"/>
         <axis xyz="0 0 1"/>
         <origin rpy="0 0 0" xyz="0.044 -0.003 0"/>
-        <limit effort="2" lower="0" upper="2" velocity="1"/>
+        <limit effort="2" lower="0" upper="2" velocity="0.99"/>
     </joint>
     <transmission name="j2s6s200_joint_finger_tip_1_trans">
         <type>transmission_interface/SimpleTransmission</type>
@@ -440,7 +440,7 @@
     <link name="j2s6s200_link_finger_2">
         <visual>
             <geometry>
-                <mesh filename="meshes/finger_proximal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_proximal.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -448,7 +448,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/finger_proximal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_proximal.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -457,12 +457,12 @@
             <inertia ixx="7.8999684e-07" ixy="0" ixz="0" iyy="7.8999684e-07" iyz="0" izz="8e-08"/>
         </inertial>
     </link>
-    <joint name="j2s6s200_joint_finger_2" type="fixed">
+    <joint name="j2s6s200_joint_finger_2" type="revolute">
         <parent link="j2s6s200_link_6"/>
         <child link="j2s6s200_link_finger_2"/>
         <axis xyz="0 0 1"/>
         <origin rpy="-1.570796327 .649262481663582 -1.57079632679490" xyz="-0.0025 -0.03095 -0.11482"/>
-        <limit effort="2" lower="0" upper="1.51" velocity="1"/>
+        <limit effort="2" lower="0" upper="1.51" velocity="0.99"/>
     </joint>
     <transmission name="j2s6s200_joint_finger_2_trans">
         <type>transmission_interface/SimpleTransmission</type>
@@ -477,7 +477,7 @@
     <link name="j2s6s200_link_finger_tip_2">
         <visual>
             <geometry>
-                <mesh filename="meshes/finger_distal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_distal.dae"/>
             </geometry>
             <material name="carbon_fiber">
                 <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
@@ -485,7 +485,7 @@
         </visual>
         <collision>
             <geometry>
-                <mesh filename="meshes/finger_distal.dae"/>
+                <mesh filename="package://robot_assets/robots/kinova/finger_distal.dae"/>
             </geometry>
         </collision>
         <inertial>
@@ -499,7 +499,7 @@
         <child link="j2s6s200_link_finger_tip_2"/>
         <axis xyz="0 0 1"/>
         <origin rpy="0 0 0" xyz="0.044 -0.003 0"/>
-        <limit effort="2" lower="0" upper="2" velocity="1"/>
+        <limit effort="2" lower="0" upper="2" velocity="0.99"/>
     </joint>
     <transmission name="j2s6s200_joint_finger_tip_2_trans">
         <type>transmission_interface/SimpleTransmission</type>
